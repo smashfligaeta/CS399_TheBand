@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block navbar %}
+	<li role="presentation"><a href="/">Home</a></li>
+	<li role="presentation"><a href="{% url 'Project1.views.bio' %}">The Band</a></li>
+	<li role="presentation" class="active"><a href="{% url 'Project1.views.disc' %}">Discography</a></li>
+	<li role="presentation"><a href="{% url 'Project1.views.tour' %}">Tour Dates</a></li>
+{% endblock %}
+
+{% block content %}
+<div class="col-md-6">
+  	<h1>Songs to Dig Your Grave to</h1>
+</div>
+{% endblock %}

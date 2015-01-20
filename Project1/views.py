@@ -9,3 +9,9 @@ def home(request):
 
 def bio(request):
 	return render(request, "bio.html", {})
+
+def disc(request):
+	return render(request, "disc.html", {})
+
+def tour(request):
+	return render(request, "tour.html", {})
