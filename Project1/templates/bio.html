@@ -1,4 +1,5 @@
 {% extends "layout.html" %}
+{% load static %}
 
 {% block navbar %}
 	<li role="presentation"><a href="/">Home</a></li>
@@ -10,5 +11,76 @@
 {% block content %}
 	<div class="col-md-6">
   	<h1>About the Band</h1>
-</div>
+
+  	<!-- About Ryan--> 
+  	<div class="row">
+  		<div class="col-sm-6 col-md-6">
+    		<div class="thumbnail">
+      			<img src="{% static "ryan.jpg" %}" alt="Ryan">
+      			<div class="caption">
+        			<h2>Ryan Dooley</h2>
+        			<h3>Guitar</h3>
+        			<p>Originally from Santa Clarita, California, most people call Ryan by his last name. He learned to play guitar, later than most would expect, in his teens. When he is not on tour you will find him doing any number of mundane activities such as playing video games, watching movies, or going out with friends.</p>
+        			<p>Follow Ryan on <a href="https://www.facebook.com/ryan.dooley.520">Facebook</a></p>
+      			</div>
+    		</div>
+  		</div>
+	
+
+	<!-- About Dylan--> 
+  	
+  		<div class="col-sm-6 col-md-6">
+    		<div class="thumbnail">
+      			<img src="..." alt="...">
+      			<div class="caption">
+        			<h2>Dylan Grayson</h2>
+        			<h3>Instrument</h3>
+        			<p>This is just a test</p>
+      			</div>
+    		</div>
+  		</div>
+	
+
+	<!-- About Justin--> 
+  	
+  		<div class="col-sm-6 col-md-6">
+    		<div class="thumbnail">
+      			<img src="..." alt="...">
+      			<div class="caption">
+        			<h2>Justin Liddicoat</h2>
+        			<h3>Instrument</h3>
+        			<p>This is just a test</p>
+      			</div>
+    		</div>
+  		</div>
+	
+
+	<!-- About Kieth--> 
+  	
+  		<div class="col-sm-6 col-md-6">
+    		<div class="thumbnail">
+      			<img src="..." alt="...">
+      			<div class="caption">
+        			<h2>Kieth Saunders</h2>
+        			<h3>Instrument</h3>
+        			<p>This is just a test</p>
+      			</div>
+    		</div>
+  		</div>
+	
+
+	<!-- About ada72--> 
+  	
+  		<div class="col-sm-6 col-md-6">
+    		<div class="thumbnail">
+      			<img src="..." alt="...">
+      			<div class="caption">
+        			<h2>ada72</h2>
+        			<h3>Instrument</h3>
+        			<p>This is just a test</p>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+	</div>
 {% endblock %}
