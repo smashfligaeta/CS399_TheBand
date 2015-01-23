@@ -1,14 +1,61 @@
 {% extends "layout.html" %}
-
 {% block navbar %}
 	<li role="presentation"><a href="/">Home</a></li>
 	<li role="presentation"><a href="{% url 'Project1.views.bio' %}">The Band</a></li>
 	<li role="presentation"><a href="{% url 'Project1.views.disc' %}">Discography</a></li>
 	<li role="presentation" class="active"><a href="{% url 'Project1.views.tour' %}">Tour Dates</a></li>
 {% endblock %}
-
 {% block content %}
+
+
 <div class="col-md-6">
-  	<h1>Flagstaff Mall everyday</h1>
+  	<h1>Recursive Apathy Tour Dates</h1>
 </div>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+</style>
+<br><br><br><br><br>
+
+<table class="tg">
+  <tr>
+    <th class="tg-031e">Location</th>
+    <th class="tg-031e">Date</th>
+    <th class="tg-031e">Time</th>
+  </tr>
+  <tr>
+    <td class="tg-031e">Lilypot Lounge,<br></td>
+    <td class="tg-031e">Wednesday, 15 April 2015</td>
+    <td class="tg-031e">1800-2100</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Mondo Saloon<br></td>
+    <td class="tg-031e">Monday, 11 May 2015</td>
+    <td class="tg-031e">1900-2300</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Juju</td>
+    <td class="tg-031e">Monday, 14 September 2015</td>
+    <td class="tg-031e">1700-1800</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Beer Bunker Restaurant<br></td>
+    <td class="tg-031e">Thursday, 24 September 2015</td>
+    <td class="tg-031e">1800-2100</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Letterback Tap<br></td>
+    <td class="tg-031e">Friday, 16 October 2015</td>
+    <td class="tg-031e">2100-0200</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Martian Pub<br></td>
+    <td class="tg-031e">Tuesday, 29 December 2015</td>
+    <td class="tg-031e">1900-2300</td>
+  </tr>
+</table>
+
+
 {% endblock %}
