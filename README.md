@@ -1,5 +1,7 @@
 # CS399_TheBand
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/smashfligaeta/CS399_TheBand?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The Band
 Due: January 23, 2015
 You are musicians in a music group (it may be rock, pop, country, classical,
